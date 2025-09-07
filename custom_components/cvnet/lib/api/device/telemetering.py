@@ -30,4 +30,6 @@ class TelemeteringDeviceApi:
             electricity=float(data["electric"]),
             gas=float(data["gas"]),
             water=float(data["water"]),
+            hotwater=float(data["hotwater"]),
+            heating=float(data["heating"]),
         )
