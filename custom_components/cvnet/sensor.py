@@ -34,6 +34,22 @@ DESCRIPTIONS = [
         state_class=SensorStateClass.TOTAL_INCREASING,
     ),
     SensorEntityDescription(
+        key="hotwater_sensor",
+        translation_key="hotwater",
+        device_class=SensorDeviceClass.WATER,
+        native_unit_of_measurement="m³",
+        has_entity_name=True,
+        state_class=SensorStateClass.TOTAL_INCREASING,
+    ),
+    SensorEntityDescription(
+        key="heating_sensor",
+        translation_key="heating",
+        device_class=SensorDeviceClass.ENERGY,
+        native_unit_of_measurement="mwh",
+        has_entity_name=True,
+        state_class=SensorStateClass.TOTAL_INCREASING,
+    ),
+    SensorEntityDescription(
         key="ventilator_sensor",
         translation_key="ventilator",
         device_class=SensorDeviceClass.ENUM,
