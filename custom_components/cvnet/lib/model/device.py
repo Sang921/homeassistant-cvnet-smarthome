@@ -74,3 +74,5 @@ class TelemeteringRespond(TypedDict):
     electricity: float  # kWh
     water: float  # m^3
     gas: float  # m^3
+    heating: float  # mwh
+    hotwater: float  # m^3
