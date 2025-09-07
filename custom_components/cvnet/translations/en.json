@@ -40,6 +40,12 @@
       },
       "gas": {
         "name": "Gas Consumption"
+      },
+      "heating": {
+        "name": "Heating Consumption"
+      },
+      "hotwater": {
+        "name": "Hot Water Consumption"
       }
     },
     "climate": {
