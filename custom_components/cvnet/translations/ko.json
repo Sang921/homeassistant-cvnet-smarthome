@@ -41,6 +41,12 @@
       "gas": {
         "name": "가스 소비"
       }
+      "heating": {
+        "name": "난방 소비"
+      },
+      "hotwater": {
+        "name": "온수 소비"
+      }
     },
     "climate": {
       "heating": {
